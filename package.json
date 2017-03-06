@@ -1,0 +1,54 @@
+{
+  "name": "burt",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "Zack Hewison",
+    "email": "zack.s.hewison@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    ""
+  ],
+  "scripts": {
+    "bot": "node ./lib/index.js",
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.15.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "zhewison/burt",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "clapp": "^1.3.0",
+    "discord.js": "^11.0.0",
+    "feed-parser": "^1.0.19",
+    "jsonfile": "^2.4.0",
+    "lodash": "^4.17.4",
+    "node-opus": "^0.2.4",
+    "request": "^2.80.0",
+    "ytdl-core": "^0.9.2"
+  }
+}
